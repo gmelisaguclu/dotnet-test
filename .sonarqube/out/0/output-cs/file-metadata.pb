@@ -1,0 +1,9 @@
+/
+&/Users/melisa/dotnet-test/Hesaplama.csutf-83
+*/Users/melisa/dotnet-test/HesapMakinesi.csutf-82
+)/Users/melisa/dotnet-test/NotHesaplama.csutf-83
+*/Users/melisa/dotnet-test/PasscalUcgeni.csutf-8-
+$/Users/melisa/dotnet-test/Program.csutf-8T
+I/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.GlobalUsings.g.csutf-8f
+[/Users/melisa/dotnet-test/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8R
+G/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.AssemblyInfo.csutf-8

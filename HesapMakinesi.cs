@@ -1,6 +1,6 @@
 using System;
 
-class HesapMakinesi
+static class HesapMakinesi
 {
     public static void Run()
     {

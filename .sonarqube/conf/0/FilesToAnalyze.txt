@@ -1,0 +1,5 @@
+﻿/Users/melisa/dotnet-test/Hesaplama.cs
+/Users/melisa/dotnet-test/HesapMakinesi.cs
+/Users/melisa/dotnet-test/NotHesaplama.cs
+/Users/melisa/dotnet-test/PasscalUcgeni.cs
+/Users/melisa/dotnet-test/Program.cs

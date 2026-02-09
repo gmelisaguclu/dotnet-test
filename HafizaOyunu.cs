@@ -1,13 +1,13 @@
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
+using System.Threading;
 
 class HafizaOyunu
 {
     public static void Run()
     {
         char[] harfler = { 'A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H' };
-        Shuffle(harfler);
+        Karistir(harfler);
 
         bool[] acik = new bool[16];
         int adim = 0;
@@ -31,28 +31,27 @@ class HafizaOyunu
             adim++;
 
             if (harfler[secim1] != harfler[secim2])
-{
-    Console.WriteLine("Eşleşmedi!");
-    System.Threading.Thread.Sleep(1500);
-    acik[secim1] = acik[secim2] = false;
-}
-else
-{
-    Console.WriteLine("Eşleşti!");
-    System.Threading.Thread.Sleep(1500);
-}
-
+            {
+                Console.WriteLine("Eşleşmedi!");
+                Thread.Sleep(1500);
+                acik[secim1] = acik[secim2] = false;
+            }
+            else
+            {
+                Console.WriteLine("Eşleşti!");
+                Thread.Sleep(1500);
+            }
         }
 
         sure.Stop();
-        Console.WriteLine("\nOYUN BİTTİ!");
+        Console.WriteLine("OYUN BİTTİ!");
         Console.WriteLine($"Toplam adım sayısı: {adim}");
         Console.WriteLine($"Toplam süre: {sure.Elapsed.TotalMinutes:F2} dk");
     }
 
     static void EkraniYaz(char[] kartlar, bool[] acik)
     {
-        Console.Clear();
+    
         for (int i = 0; i < 16; i++)
         {
             if (acik[i])
@@ -88,7 +87,7 @@ else
         return true;
     }
 
-    static void Shuffle(char[] dizi)
+    static void Karistir(char[] dizi)
     {
         Random rnd = new Random();
         for (int i = 0; i < dizi.Length; i++)
@@ -98,5 +97,5 @@ else
         }
     }
 
-   
-}    
+    
+}

@@ -1,11 +1,16 @@
 using System;
 
-class PasscalUcgeni
+static class PasscalUcgeni
 {
     public static void Run()
     {
         Console.Write("Kaç satır olsun? ");
-        int satir = int.Parse(Console.ReadLine());
+        int ? satir = int.Parse(Console.ReadLine());
+        if (satir == null)
+        {
+            Console.WriteLine("Satır sayısı boş olamaz!");
+            return;
+        }
 
         for (int i = 0; i < satir; i++)
         {

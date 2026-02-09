@@ -1,14 +1,20 @@
 using System;
 
-class NotHesaplama
+static class NotHesaplama
 {
     public static void Run()
     {
         while (true)
         {
             Console.WriteLine("Not hesaplamak için H, çıkış için E: ");
-            string secim = Console.ReadLine().ToUpper();
+            string ? secim = Console.ReadLine().ToUpper();
+            if (secim == null)
+               {
+                  Console.WriteLine("seçim boş olamaz, lütfen tekrar deneyin.");
+                  continue;
+        }  
 
+ 
             if (secim == "E")
             {
                 Console.WriteLine("Program sonlandırıldı.");
@@ -22,7 +28,12 @@ class NotHesaplama
             }
 
             Console.WriteLine("Dersin adı: ");
-            string dersAdi = Console.ReadLine();
+            string ? dersAdi = Console.ReadLine();
+            if (dersAdi == null)
+            {
+                Console.WriteLine("Ders adı boş olamaz!");
+                continue;
+            }
 
             int adet = ReadInt("Kaç not gireceksiniz? ");
 

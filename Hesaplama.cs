@@ -1,6 +1,6 @@
 using System;
 
-class Hesaplama
+static class Hesaplama
 {
     public static void  Run()
     {
