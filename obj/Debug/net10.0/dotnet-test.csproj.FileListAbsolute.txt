@@ -12,3 +12,4 @@
 /Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.pdb
 /Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.genruntimeconfig.cache
 /Users/melisa/dotnet-test/obj/Debug/net10.0/ref/dotnet-test.dll
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.sourcelink.json
