@@ -1,0 +1,14 @@
+/Users/melisa/dotnet-test/bin/Debug/net10.0/dotnet-test
+/Users/melisa/dotnet-test/bin/Debug/net10.0/dotnet-test.deps.json
+/Users/melisa/dotnet-test/bin/Debug/net10.0/dotnet-test.runtimeconfig.json
+/Users/melisa/dotnet-test/bin/Debug/net10.0/dotnet-test.dll
+/Users/melisa/dotnet-test/bin/Debug/net10.0/dotnet-test.pdb
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.AssemblyInfoInputs.cache
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.AssemblyInfo.cs
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.csproj.CoreCompileInputs.cache
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.dll
+/Users/melisa/dotnet-test/obj/Debug/net10.0/refint/dotnet-test.dll
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.pdb
+/Users/melisa/dotnet-test/obj/Debug/net10.0/dotnet-test.genruntimeconfig.cache
+/Users/melisa/dotnet-test/obj/Debug/net10.0/ref/dotnet-test.dll
